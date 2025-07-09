@@ -1,0 +1,60 @@
+# ---- Java ----
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.log
+
+# Compiled source files
+/build/
+/target/
+/out/
+
+# Maven
+/logs/
+*.log
+!.mvn/wrapper/maven-wrapper.jar
+.mvn/timing.properties
+
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# Kotlin
+*.kotlin_module
+
+# IDE Settings - IntelliJ
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temp files
+*.swp
+*~
+*.tmp
+*.bak
+
+# Eclipse (falls du das Projekt auch dort öffnest)
+.project
+.classpath
+.c9/
+.settings/
+
+# VS Code (falls du es parallel nutzt)
+.vscode/
+
+# JetBrains Rider (falls parallel genutzt)
+.idea/
+
+# SonarQube
+.sonar/
