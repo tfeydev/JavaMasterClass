@@ -4,6 +4,18 @@ public class MethodChallenge {
 
     int highScorePostion = calculateHighScorePosition(1500);
     displayHighScorePosition("Tim", highScorePostion);
+
+    highScorePostion = calculateHighScorePosition(1000);
+    displayHighScorePosition("Bob", highScorePostion);
+
+    highScorePostion = calculateHighScorePosition(500);
+    displayHighScorePosition("Percy", highScorePostion);
+
+    highScorePostion = calculateHighScorePosition(100);
+    displayHighScorePosition("Gilbert", highScorePostion);
+
+    highScorePostion = calculateHighScorePosition(25);
+    displayHighScorePosition("James", highScorePostion);
     }
 
     public static void displayHighScorePosition(String playerName, int highScorePosition) {
@@ -13,14 +25,14 @@ public class MethodChallenge {
 
     public static int calculateHighScorePosition(int playerScore) {
 
-        if (playerScore >= 3000) {
+        if (playerScore >= 1000) {
             return 1;
-        } else if (playerScore >= 500 && playerScore < 1000) {
+        } else if (playerScore >= 500) {
             return 2;
-        } else if (playerScore >= 100 && playerScore < 500) {
+        } else if (playerScore >= 100) {
             return 3;
-        } else {
-            return 4;
         }
+
+        return 4;
     }
 }
